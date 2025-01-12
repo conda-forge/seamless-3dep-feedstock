@@ -23,6 +23,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - rasterio
+    - libgdal-core
 
 test:
   imports:
