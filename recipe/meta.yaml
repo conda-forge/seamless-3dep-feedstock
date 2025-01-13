@@ -24,6 +24,7 @@ requirements:
     - python >={{ python_min }}
     - rasterio
     - libgdal-core
+    - urllib3
 
 test:
   imports:
@@ -35,7 +36,7 @@ test:
     - python {{ python_min }}
 
 about:
-  summary: Easy retrieval of smealess DEM from 3DEP across US.
+  summary: Streamlined Access to USGS 3DEP Topographic Data
   license: MIT
   license_file: LICENSE
   home: https://github.com/hyriver/seamless-3dep
