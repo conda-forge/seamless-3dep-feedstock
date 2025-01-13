@@ -1,5 +1,5 @@
 {% set name = "seamless-3dep" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/seamless_3dep-{{ version }}.tar.gz
-  sha256: 61c4d009a1be6752c528a2addae89eee7fbc456c39f7a7b6d4824494413321ab
+  sha256: 40fe5203579dc570a61cb078eac42d654142ad487675db30e4bc5ecec41b6efe
 
 build:
   noarch: python
