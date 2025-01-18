@@ -7,7 +7,7 @@ Home: https://github.com/hyriver/seamless-3dep
 
 Package license: MIT
 
-Summary: Easy retrieval of smealess DEM from 3DEP across US.
+Summary: Streamlined Access to USGS 3DEP Topographic Data
 
 Current build status
 ====================
@@ -144,7 +144,4 @@ Feedstock Maintainers
 =====================
 
 * [@cheginit](https://github.com/cheginit/)
-
-
-<!-- dummy commit to enable rerendering -->
 
