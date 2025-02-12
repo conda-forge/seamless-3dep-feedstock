@@ -39,7 +39,9 @@ about:
   summary: Streamlined Access to USGS 3DEP Topographic Data
   license: MIT
   license_file: LICENSE
-  home: https://github.com/hyriver/seamless-3dep
+  home: https://seamless-3dep.readthedocs.io
+  doc_url: https://seamless-3dep.readthedocs.io
+  dev_url: https://github.com/hyriver/seamless-3dep
 
 extra:
   recipe-maintainers:
