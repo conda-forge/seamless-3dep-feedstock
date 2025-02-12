@@ -1,5 +1,5 @@
 {% set name = "seamless-3dep" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/seamless_3dep-{{ version }}.tar.gz
-  sha256: 865e609a0e6d45f93ae107d78a29674107f3048f5aa4df9e4d22ea03483fd7c3
+  sha256: 4044515c1b8deed9a87b6de51d46fc56f5879a248f9a0d2219a55d946902d6dd
 
 build:
   noarch: python
@@ -22,8 +22,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - aiofiles
-    - aiohttp >=3.8.3
+    - tiny-retriever >=0.1.1
     - libgdal-core
     - rasterio
 
@@ -40,7 +39,9 @@ about:
   summary: Streamlined Access to USGS 3DEP Topographic Data
   license: MIT
   license_file: LICENSE
-  home: https://github.com/hyriver/seamless-3dep
+  home: https://seamless-3dep.readthedocs.io
+  doc_url: https://seamless-3dep.readthedocs.io
+  dev_url: https://github.com/hyriver/seamless-3dep
 
 extra:
   recipe-maintainers:
