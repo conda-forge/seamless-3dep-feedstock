@@ -25,6 +25,7 @@ requirements:
     - tiny-retriever >=0.1.1
     - libgdal-core
     - rasterio
+    - numpy >=2
 
 test:
   imports:
