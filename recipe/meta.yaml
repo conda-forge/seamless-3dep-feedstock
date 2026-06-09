@@ -1,5 +1,6 @@
 {% set name = "seamless-3dep" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.2" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/seamless_3dep-{{ version }}.tar.gz
-  sha256: 4bfa0013a42e27868d0c62b4889f7dbb9b2c76a22b90248098e44cd3dbaa8bed
+  sha256: 45b659ea6a2b43a97df715d2e49f2a666c3a4ce5fce148c1afae754e004b4809
 
 build:
   noarch: python
@@ -23,7 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - tiny-retriever >=0.1.1
-    - libgdal-core
+    - libgdal-core >=3.12
     - rasterio
     - numpy >=2
 
